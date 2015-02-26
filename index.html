@@ -7,12 +7,21 @@
 	<script src="/includes/js/modernizr.js"></script>
      <link rel="stylesheet" href="/styles/responsive-nav.css">
 	<link rel="stylesheet" type="text/css" media="all" href="styles/styles.css" />
+	<script>
+  	var navigation = responsiveNav("#nav");
+  	</script>	
 </head>
 <body>
 	<header>
 		logo altamira
-		<nav></nav>
+		<nav id="nav" role="navigation">
+			<ul>
+				<li class="select"><a href="#">Inicio</a></li>
+				<li><a href="curriculum.html">Curriculum</a></li>
+				<li><a href="contactar.php">Contactar</a></li>
+			</ul>
+		</nav>
 	</header>
-	
+
 </body>
 </html>
