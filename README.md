@@ -1,2 +1,2 @@
-# altamiramobile
-Web movil para altamira
+# altinm mobile
+Web movil para altinm
